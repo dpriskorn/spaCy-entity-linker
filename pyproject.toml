@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "spacy-entity-linker"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+qwikidata = "^0.4.2"
+pydantic = "^2.5.2"
+spacy = "^3.7.2"
+numpy = "^1.26.2"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
